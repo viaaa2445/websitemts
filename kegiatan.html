@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kegiatan - MTs Al-Mujahidin</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <style>
+    .card {
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .badge {
+      font-size: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success shadow">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">MTs Al-Mujahidin</a>
+      <div>
+        <a class="btn btn-outline-light btn-sm me-2" href="profil.html">Profil</a>
+        <a class="btn btn-outline-light btn-sm me-2" href="kegiatan.html">Kegiatan</a>
+        <a class="btn btn-outline-light btn-sm me-2" href="galeri.html">Galeri</a>
+        <a class="btn btn-outline-light btn-sm me-2" href="berita.html">Berita</a>
+        <a class="btn btn-outline-light btn-sm" href="kontak.html">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="container py-5">
+    <h1 class="section-title text-center" data-aos="zoom-in-up">Program Unggulan MTs Al-Mujahidin</h1>
+    <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+      Kami merancang berbagai kegiatan yang tidak hanya meningkatkan akademik siswa, tetapi juga spiritual dan sosial mereka.
+    </p>
+
+    <div class="row g-4">
+      <div class="col-md-4" data-aos="flip-left" data-aos-delay="200">
+        <div class="card h-100 shadow border-0 bg-light">
+          <div class="card-body">
+            <h5 class="card-title text-success">
+              <i class="bi bi-book-half me-2"></i> Tahfidz & Tilawah
+            </h5>
+            <p class="card-text">Program harian untuk menghafal Al-Qur'an dan memperbaiki tajwid melalui pembinaan rutin dengan ustadz/ustadzah.</p>
+            <span class="badge bg-success">Spiritual</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="flip-up" data-aos-delay="300">
+        <div class="card h-100 shadow border-0 bg-light">
+          <div class="card-body">
+            <h5 class="card-title text-success">
+              <i class="bi bi-people-fill me-2"></i> Bakti Sosial & Ramadhan
+            </h5>
+            <p class="card-text">Kegiatan peduli masyarakat seperti santunan yatim, berbagi takjil, dan pesantren kilat saat Ramadhan tiba.</p>
+            <span class="badge bg-success">Karakter</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" data-aos="flip-right" data-aos-delay="400">
+        <div class="card h-100 shadow border-0 bg-light">
+          <div class="card-body">
+            <h5 class="card-title text-success">
+              <i class="bi bi-laptop me-2"></i> Literasi & Teknologi
+            </h5>
+            <p class="card-text">Pengenalan komputer, literasi digital Islami, dan pelatihan media kreatif untuk menghadapi dunia modern.</p>
+            <span class="badge bg-success">Inovasi</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-success text-white text-center py-3 mt-5">
+    <small>&copy; 2025 MTs Al-Mujahidin — Membangun Generasi Rabbani dan Teknologis</small>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
