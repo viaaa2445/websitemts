@@ -1,0 +1,25 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+h1, h2 {
+  font-weight: bold;
+  color: #0d6efd;
+}
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background-color: #0d6efd;
+}
+a.btn:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+main {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
